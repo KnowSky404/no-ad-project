@@ -1,0 +1,50 @@
+/*
+脚本名称：Bilibili 开屏去广告
+接口路径：https://app.bilibili.com/x/v2/splash/list
+功能：清空开屏广告缓存列表
+*/
+// ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list
+
+const url = $request.url;
+const body = $response.body;
+
+if (!body) {
+    $done({});
+}
+
+try {
+    let obj = JSON.parse(body);
+
+    if (obj.data) {
+        // 核心逻辑：直接把广告列表清空
+        // B站 App 读到空列表，就不会下载广告，下次启动直接进首页
+
+        // 清空主要广告列表
+        if (obj.data.list) {
+            obj.data.list = [];
+        }
+
+        // 清空展示控制列表
+        if (obj.data.show) {
+            obj.data.show = [];
+        }
+
+        // (可选) 修改一些时间参数，让App以为很久都不需要拉取新广告
+        // max_time: 广告展示最长时间
+        // min_interval: 下次拉取配置的最小间隔 (设为一年 31536000)
+        if (obj.data.max_time) {
+            obj.data.max_time = 0;
+        }
+        if (obj.data.pull_interval) {
+            obj.data.pull_interval = 31536000;
+        }
+
+        console.log("[Bilibili] 开屏广告配置已清空");
+    }
+
+    $done({ body: JSON.stringify(obj) });
+
+} catch (e) {
+    console.log("[Bilibili] 开屏脚本处理出错: " + e);
+    $done({});
+}

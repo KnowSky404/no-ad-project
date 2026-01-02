@@ -1,0 +1,21 @@
+#!name=B站APP去广告
+#!desc=移除哔哩哔哩开屏广告、首页推荐流广告、动态广告等
+#!author=KnowSky404
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bilibili.png
+#!homepage=https://github.com/KnowSky404/no-ad-proejct
+#!version=0.0.1
+
+[MitM]
+hostname = app.bilibili.com
+
+[Script]
+# --- 开屏广告 (Splash) ---
+# 匹配 URL: /x/v2/splash/list
+http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=https://raw.githubusercontent.com/KnowSky404/no-ad-project/main/loon/script/bilibili_splash.js, requires-body=true, tag=移除开屏广告
+
+# --- 首页推荐流 (Feed) ---
+# 匹配 URL: /x/v2/feed/index
+# http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index script-path=https://raw.githubusercontent.com/你的用户名/你的仓库/main/bilibili_feed.js, requires-body=true, tag=移除首页广告
+
+# --- (预留) 动态去广告 ---
+# http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/activity\/index script-path=..., requires-body=true, tag=移除动态广告
