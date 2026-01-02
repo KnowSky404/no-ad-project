@@ -1,6 +1,5 @@
 #!name=B站APP去广告
-#!desc=移除哔哩哔哩开屏广告、首页推荐流广告、动态广告等
-#!desc=版本v0.0.1
+#!desc=移除哔哩哔哩开屏广告、首页推荐流广告、动态广告等 版本 v0.0.2
 #!author=KnowSky404
 #!icon=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/6f048386b8aeb0e247ebb42b11f3d2a049ec971d/icon/03CNSoft/bilibili.png
 #!homepage=https://github.com/KnowSky404/no-ad-proejct
