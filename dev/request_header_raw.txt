@@ -1,0 +1,19 @@
+:authority: app.bilibili.com
+:path: /x/resource/show/tab/v2?access_key=943ee8ff4dfb8eba4a234ea1649fec11CjDcV_EzNl4BapcORuizL93xPy-smMZZkmtZaIKHV7YiOZM-bTUg6dcAAwbqit2i2egSVlVsU3dfMFpJYnVtS094MUdLaTZRMlB1LUVMYkw4ZGRucFVycnNiaU1wNGJzYWJRcUxKVGdZbUFCcV9IZG9GZnp6T2x1R19PVy1ZNFVCSmxHb0d5aDh3IIEC&actionKey=appkey&appkey=27eb53fc9058f8c3&build=87600100&c_locale=zh-Hans_CN&device=phone&disable_rcmd=0&mobi_app=iphone&platform=ios&s_locale=zh-Hans_CN&sign=2e4fa0914315f3d14c6a8e517727248b&statistics=%7B%22appId%22%3A1%2C%22version%22%3A%228.76.0%22%2C%22abtest%22%3A%22%22%2C%22platform%22%3A1%7D&teenagers_age=16&ts=1767366815
+:scheme: https
+:method: GET
+accept: */*
+accept-encoding: gzip, deflate, br
+app-key: iphone
+buvid: Y14A561D8999C0DC421DB0F22BAF2CD41B38
+env: prod
+guestid: 43264059516750
+session_id: 656b4617
+user-agent: bili-universal/87600100 CFNetwork/1.0 Darwin/25.2.0 os/ios model/iPhone 15 Pro mobi_app/iphone build/87600100 osVer/26.2 network/2 channel/AppStore
+x-bili-aurora-eid: UFEFQlgFVAU=
+x-bili-locale-bin: Cg4KAnpoEgRIYW5zGgJDThIOCgJ6aBIESGFucxoCQ04iDUFzaWEvU2hhbmdoYWkqBiswODowMA==
+x-bili-metadata-legal-region: CN
+x-bili-mid: 154491652
+x-bili-ticket: eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NjczOTU0OTQsImlhdCI6MTc2NzM2NjM5NCwicGx0IjoxLCJidXZpZCI6IlkxNEE1NjFEODk5OUMwREM0MjFEQjBGMjJCQUYyQ0Q0MUIzOCJ9.oAA2zoZ6yPf0GKS0vJtEnOnkMnn1Vuis9uVu-9n7h0A
+x-bili-trace-id: 9d18b226c71d936f78c7dfd0856957e0:78c7dfd0856957e0:0:0
+

@@ -19,3 +19,7 @@ http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=htt
 
 # --- (预留) 动态去广告 ---
 # http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/activity\/index script-path=..., requires-body=true, tag=移除动态广告
+
+# --- UI Tab 修改 ---
+# 匹配 URL: /x/resource/show/tab/v2
+http-response ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/v2 script-path=https://github.com/KnowSky404/no-ad-project/raw/refs/heads/main/loon/scripts/bilibili_tab.js, requires-body=true, tag=UI精简
