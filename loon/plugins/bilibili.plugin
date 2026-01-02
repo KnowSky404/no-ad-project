@@ -11,7 +11,7 @@ hostname = app.bilibili.com
 [Script]
 # --- 开屏广告 (Splash) ---
 # 匹配 URL: /x/v2/splash/list
-http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=https://raw.githubusercontent.com/KnowSky404/no-ad-project/main/loon/script/bilibili_splash.js, requires-body=true, tag=移除开屏广告
+http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=https://github.com/KnowSky404/no-ad-project/raw/refs/heads/main/loon/scripts/bilibili_splash.js, requires-body=true, tag=移除开屏广告
 
 # --- 首页推荐流 (Feed) ---
 # 匹配 URL: /x/v2/feed/index
