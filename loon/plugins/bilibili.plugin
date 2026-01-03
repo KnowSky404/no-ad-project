@@ -3,15 +3,15 @@
 #!author=KnowSky404[https://github.com/KnowSky404]
 #!icon=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/6f048386b8aeb0e247ebb42b11f3d2a049ec971d/icon/03CNSoft/bilibili.png
 #!homepage=https://github.com/KnowSky404/no-ad-proejct
-#!date=2026-01-03 09:44
+#!date=2026-01-03 10:18
 
 [MitM]
 hostname = app.bilibili.com
 
 [Script]
 # --- 开屏广告 (Splash) ---
-# 匹配 URL: /x/v2/splash/list
-http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list script-path=https://github.com/KnowSky404/no-ad-project/raw/refs/heads/main/loon/scripts/bilibili_splash.js, requires-body=true, tag=移除开屏广告
+# 匹配 URL: /x/v2/splash/list 和 /x/v2/splash/show
+http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(list|show) script-path=https://github.com/KnowSky404/no-ad-project/raw/refs/heads/main/loon/scripts/bilibili_splash.js, requires-body=true, tag=移除开屏广告
 
 # --- 首页推荐流 (Feed) ---
 # 匹配 URL: /x/v2/feed/index
