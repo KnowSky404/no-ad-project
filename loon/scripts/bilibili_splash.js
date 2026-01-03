@@ -24,6 +24,11 @@ try {
             obj.data.list = [];
         }
 
+        // 移除 keep_ids
+        if (obj.data.keep_ids) {
+            obj.data.keep_ids = []
+        }
+
         // 清空展示控制列表
         if (obj.data.show) {
             obj.data.show = [];
