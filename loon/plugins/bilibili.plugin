@@ -3,10 +3,10 @@
 #!author=KnowSky404[https://github.com/KnowSky404]
 #!icon=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/6f048386b8aeb0e247ebb42b11f3d2a049ec971d/icon/03CNSoft/bilibili.png
 #!homepage=https://github.com/KnowSky404/no-ad-proejct
-#!date=2026-01-18 10:30
+#!date=2026-01-18 10:00
 
 [MitM]
-hostname = app.bilibili.com, grpc.biliapi.net
+hostname = app.bilibili.com
 
 [Script]
 # --- 开屏广告 (Splash) ---
@@ -17,9 +17,8 @@ http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(list|show) script-p
 # 匹配 URL: /x/v2/feed/index
 http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index script-path=https://github.com/KnowSky404/no-ad-project/raw/refs/heads/main/loon/scripts/bilibili_feed.js, requires-body=true, tag=移除首页广告
 
-# --- 动态去广告/红点 (Dynamic) ---
-# 匹配 URL: /bilibili.app.dynamic.v1.Dynamic/DynRed
-http-response ^https:\/\/grpc\.biliapi\.net\/bilibili\.app\.dynamic\.v1\.Dynamic\/DynRed script-path=https://github.com/KnowSky404/no-ad-project/raw/refs/heads/main/loon/scripts/bilibili_dynamic.js, requires-body=true, tag=移除动态红点
+# --- (预留) 动态去广告 ---
+# http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/activity\/index script-path=..., requires-body=true, tag=移除动态广告
 
 # --- UI Tab 修改 ---
 # 匹配 URL: /x/resource/show/tab/v2

@@ -21,23 +21,3 @@
 2. items里面的元素包含 "goto": "vertical_av" 这个属性的, 也就是我要剔除竖屏视频
 2. items里面的元素包含 "card_goto": "ad_web_s" 这个属性的, 也就是我要剔除跳转广告的卡片
 请依据上述背景已经已有的上下文,为我更新一下 @loon/scripts/bilibili_feed.js 这个脚本吧
-
-## 20260118 - Dynamic Red Dot & Video Detail Ad
-
-1.  **Dynamic Red Dot (`DynRed`)**:
-    -   Found gRPC interface: `/bilibili.app.dynamic.v1.Dynamic/DynRed`
-    -   Response is Gzipped Protobuf containing a JSON string.
-    -   Created `loon/scripts/bilibili_dynamic.js` to force a "clean" response (no red dot) by returning a hardcoded static binary payload.
-    -   Updated plugin to include `grpc.biliapi.net` in MitM and added the rewrite rule.
-
-2.  **Video Detail Ad**:
-    -   User identified an ad image `i0.hdslb.com/.../69377536...`.
-    -   Suspected interface: `/x/v2/view` or `/x/v2/view/material`.
-    -   **Action Required**: User needs to capture the specific `/x/v2/view` request when entering the video detail page to identify where the ad data (matching the image hash) is located.
-
-
-我现在还有一个疑问是,针对哔哩哔哩APP视频详情页 在UP主信息和播放器界面中间有个tab页广告,这个接口一般是什么呢
-
-我现在只能抓到请求tab页广告的里面的一个请求是 i0.hdslb.com/bfs/sycp/mgk/material/png/202601/69377536d40fe9955d4947f3e2104088.png@1e_1c_85q.avif 这个是获取广告图片的. 目前我发的问题是, 当前只有在特定视频里面才出现广告, 但是我在特定视频的feed接口里面,并没有找到 广告相关的信息
-
-现在 @dev 目录下是关于 https://grpc.biliapi.net/bilibili.app.dynamic.v1.Dynamic/DynRed 这个接口抓去的请求, 看这个能看出一些什么信息吗
