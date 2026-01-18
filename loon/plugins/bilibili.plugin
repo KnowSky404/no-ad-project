@@ -3,7 +3,13 @@
 #!author=KnowSky404[https://github.com/KnowSky404]
 #!icon=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/6f048386b8aeb0e247ebb42b11f3d2a049ec971d/icon/03CNSoft/bilibili.png
 #!homepage=https://github.com/KnowSky404/no-ad-proejct
-#!date=2026-01-18 10:00
+#!date=2026-01-18 20:00
+
+[Rule]
+# 拦截商业化广告/追踪接口
+DOMAIN, cm.bilibili.com, REJECT
+# 拦截广告素材存储路径 (可选, 增强效果)
+URL-REGEX, ^https?:\/\/i0\.hdslb\.com\/bfs\/sycp\/, REJECT
 
 [MitM]
 hostname = app.bilibili.com
