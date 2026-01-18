@@ -3,7 +3,7 @@
 #!author=KnowSky404[https://github.com/KnowSky404]
 #!icon=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/6f048386b8aeb0e247ebb42b11f3d2a049ec971d/icon/03CNSoft/bilibili.png
 #!homepage=https://github.com/KnowSky404/no-ad-proejct
-#!date=2026-01-03 10:18
+#!date=2026-01-18 10:00
 
 [MitM]
 hostname = app.bilibili.com
