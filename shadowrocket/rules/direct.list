@@ -1,0 +1,19 @@
+# Personal Direct Rules for Shadowrocket
+# Date: 2026-02-08 22:15
+
+DOMAIN-SUFFIX,lilyemby.com
+DOMAIN-SUFFIX,ipa.store
+IP-CIDR,145.79.143.238/24
+IP-CIDR6,2a0e:97c0:3f0:1::2aa0/64
+IP-CIDR6,fe80::e05e:d7ff:fe00:e32/64
+IP-CIDR,23.95.60.68/25
+IP-CIDR,66.154.104.159/24
+IP-CIDR6,2605:c000:4030:4::4bcf:93aa/64
+IP-CIDR6,2605:c000:4030:4::9b54:7226/64
+IP-CIDR6,2605:c000:4030:4::94d5:6d0f/64
+DOMAIN,rn.knowsky404.com
+DOMAIN,gcp.knowsky404.com
+DOMAIN,cc.knowsky404.com
+DOMAIN,cc6.knowsky404.com
+DOMAIN,ztr.knowsky404.com
+DOMAIN,ztr6.knowsky404.com

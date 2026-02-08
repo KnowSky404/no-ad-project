@@ -1,0 +1,8 @@
+# Personal Proxy Rules for Shadowrocket
+# Date: 2026-02-08 22:15
+
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,linux.do
+DOMAIN,status.knowsky404.com
+DOMAIN,knowsky404.com
+DOMAIN,gist-ledger.knowsky404.com
