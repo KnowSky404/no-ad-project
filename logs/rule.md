@@ -20,3 +20,14 @@
 5. gist-ledger.knowsky404.com
 
 我同时还需要在跟项目根目录下新增一个shadowrocket目录,用来存放于适用于shadowrocket的插件规则和脚本等,目录参考loon的格式,我现在需要把上述的分流规则改造适配一下成shadowrocket的格式,并放在对应的目录下
+
+我现在需要把以下域名或者IP地址放到直连的规则列表里面,需要同时更新loon和shadowrocket目录下direct的文件:
+1. gcp.knowsky404.com
+2. 82.40.41.87
+3. 2a13:edc0:24:152::a
+4. 212.60.153.192
+5. 2602:fb54:1801:1b8::a
+6. ztr.knowsky404.com
+7. cc.knowsky404.com
+8. bfc-de.knowsky404.com
+9. bfc-jp.knowsky404.com

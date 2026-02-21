@@ -1,5 +1,5 @@
 # Personal Direct Rules
-# Date: 2026-02-08 22:15
+# Date: 2026-02-21 16:00
 
 DOMAIN-SUFFIX,lilyemby.com
 DOMAIN-SUFFIX,ipa.store
@@ -17,3 +17,9 @@ DOMAIN,cc.knowsky404.com
 DOMAIN,cc6.knowsky404.com
 DOMAIN,ztr.knowsky404.com
 DOMAIN,ztr6.knowsky404.com
+IP-CIDR,82.40.41.87/32
+IP-CIDR6,2a13:edc0:24:152::a/128
+IP-CIDR,212.60.153.192/32
+IP-CIDR6,2602:fb54:1801:1b8::a/128
+DOMAIN,bfc-de.knowsky404.com
+DOMAIN,bfc-jp.knowsky404.com
