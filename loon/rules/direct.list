@@ -1,5 +1,5 @@
 # Personal Direct Rules
-# Date: 2026-02-21 16:00
+# Date: 2026-02-23
 
 DOMAIN-SUFFIX,lilyemby.com
 DOMAIN-SUFFIX,ipa.store
@@ -23,3 +23,7 @@ IP-CIDR,212.60.153.192/32
 IP-CIDR6,2602:fb54:1801:1b8::a/128
 DOMAIN,bfc-de.knowsky404.com
 DOMAIN,bfc-jp.knowsky404.com
+DOMAIN,media.nijigem.by
+DOMAIN,ct.cdn.bgp.yt
+DOMAIN,cm.cdn.bgp.yt
+DOMAIN,cu.cdn.bgp.yt

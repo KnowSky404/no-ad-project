@@ -31,3 +31,9 @@
 7. cc.knowsky404.com
 8. bfc-de.knowsky404.com
 9. bfc-jp.knowsky404.com
+
+我现在需要把以下域名或者IP地址放到直连的规则列表里面,需要同时更新loon和shadowrocket目录下direct的文件:
+1. media.nijigem.by
+2. ct.cdn.bgp.yt
+3. cm.cdn.bgp.yt
+4. cu.cdn.bgp.yt
