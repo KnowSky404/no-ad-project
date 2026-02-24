@@ -27,3 +27,6 @@ DOMAIN,media.nijigem.by
 DOMAIN,ct.cdn.bgp.yt
 DOMAIN,cm.cdn.bgp.yt
 DOMAIN,cu.cdn.bgp.yt
+IP-CIDR,98.158.29.18/32
+IP-CIDR6,2602:fce1:451:9::/64
+DOMAIN,bfc-lax.knowsky404.com
