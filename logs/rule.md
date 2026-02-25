@@ -42,3 +42,7 @@
 1. 98.158.29.18
 2. 2602:fce1:451:9::/64
 3. bfc-lax.knowsky404.com
+
+我现在需要把以下域名或者IP地址放到直连的规则列表里面,需要同时更新loon和shadowrocket目录下direct的文件:
+1. 35.212.231.16
+2. gcp.knowsky404.com
