@@ -1,5 +1,5 @@
 # Personal Direct Rules for Shadowrocket
-# Date: 2026-02-25
+# Date: 2026-02-26
 
 DOMAIN-SUFFIX,lilyemby.com
 DOMAIN-SUFFIX,ipa.store
@@ -31,3 +31,4 @@ IP-CIDR,98.158.29.18/32
 IP-CIDR6,2602:fce1:451:9::/64
 DOMAIN,bfc-lax.knowsky404.com
 IP-CIDR,35.212.231.16/32
+DOMAIN,tz.knowsky404.com

@@ -46,3 +46,7 @@
 我现在需要把以下域名或者IP地址放到直连的规则列表里面,需要同时更新loon和shadowrocket目录下direct的文件:
 1. 35.212.231.16
 2. gcp.knowsky404.com
+
+我现在需要把以下域名或者IP地址放到直连的规则列表里面,需要同时更新或新增loon和shadowrocket目录下proxy的文件:
+1. tz.knowsky404.com
+同时移除proxy里面的 knowsky404.com 域名
