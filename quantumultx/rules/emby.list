@@ -1,0 +1,9 @@
+# Emby Rules for Quantumult X
+# Date: 2026-03-01
+
+HOST,www.lilyemby.com
+HOST,tx.lilyemby.com
+HOST,cdn.lilyemby.com
+HOST,aliyun.lilyemby.com
+HOST,free.lilyemby.com
+HOST-SUFFIX,lilyemby.com

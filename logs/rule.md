@@ -55,3 +55,13 @@
 我现在需要把以下域名或者IP地址放到proxy的规则列表里面,从direct里面移除,需要同时更新或新增loon和shadowrocket目录下的文件:
 1. tz.knowsky404.com
 2. status.knowsky404.com
+
+我需要把以下域名从当前所有的direct里面剔除,并将以下域名添加到loon、shadowrocket、quantumultx目录下方的emby.list目录下
+1. www.lilyemby.com
+2. tx.lilyemby.com
+3. cdn.lilyemby.com
+4. aliyun.lilyemby.com
+5. free.lilyemby.com
+6. lilyemby.com
+7. *.lilyemby.com
+需要注意的是,可能loon、shadowrocket、quantumultx 可能支持的格式不同,需要各自处理适配
