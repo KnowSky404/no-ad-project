@@ -1,8 +1,8 @@
 # Personal Proxy Rules for Quantumult X
 # Date: 2026-03-01
 
-HOST-SUFFIX,v2ex.com
-HOST-SUFFIX,linux.do
-HOST,status.knowsky404.com
-HOST,tz.knowsky404.com
-HOST,gist-ledger.knowsky404.com
+HOST-SUFFIX,v2ex.com,proxy
+HOST-SUFFIX,linux.do,proxy
+HOST,status.knowsky404.com,proxy
+HOST,tz.knowsky404.com,proxy
+HOST,gist-ledger.knowsky404.com,proxy
