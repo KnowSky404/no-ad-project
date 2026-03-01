@@ -65,3 +65,5 @@
 6. lilyemby.com
 7. *.lilyemby.com
 需要注意的是,可能loon、shadowrocket、quantumultx 可能支持的格式不同,需要各自处理适配
+
+我现在还需要吧原来loon和shadowrocket目录下原来的分流规则其他的内容也同步改造适配到quantumultx对应目录下
