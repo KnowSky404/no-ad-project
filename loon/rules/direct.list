@@ -1,5 +1,5 @@
 # Personal Direct Rules
-# Date: 2026-03-01
+# Date: 2026-03-05
 
 DOMAIN-SUFFIX,ipa.store
 IP-CIDR,145.79.143.238/24
@@ -30,3 +30,6 @@ IP-CIDR,98.158.29.18/32
 IP-CIDR6,2602:fce1:451:9::/64
 DOMAIN,bfc-lax.knowsky404.com
 IP-CIDR,35.212.231.16/32
+IP-CIDR,212.135.37.233/32
+IP-CIDR6,2a06:a005:ad:fffd::495/128
+DOMAIN,gl-gb.knowsky404.com

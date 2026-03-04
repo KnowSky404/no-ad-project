@@ -67,3 +67,11 @@
 需要注意的是,可能loon、shadowrocket、quantumultx 可能支持的格式不同,需要各自处理适配
 
 我现在还需要吧原来loon和shadowrocket目录下原来的分流规则其他的内容也同步改造适配到quantumultx对应目录下
+
+我现在还需要在emby分流文件里面添加如下规则:
+1. 
+
+我现在需要把以下域名或者IP地址放到直连的规则列表里面
+1. 212.135.37.233
+2. 2a06:a005:ad:fffd::495
+3. gl-gb.knowsky404.com
