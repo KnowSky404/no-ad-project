@@ -1,5 +1,5 @@
 # Personal Direct Rules for Quantumult X
-# Date: 2026-03-05
+# Date: 2026-03-08
 
 HOST-SUFFIX,ipa.store,direct
 IP-CIDR,145.79.143.238/24,direct
@@ -33,3 +33,5 @@ IP-CIDR,35.212.231.16/32,direct
 IP-CIDR,212.135.37.233/32,direct
 IP-CIDR6,2a06:a005:ad:fffd::495/128,direct
 HOST,gl-gb.knowsky404.com,direct
+IP-CIDR,216.23.85.87/32,direct
+IP-CIDR6,2a13:edc0:24:152::/64,direct
