@@ -1,5 +1,5 @@
 # Emby Rules for Shadowrocket
-# Date: 2026-03-01
+# Date: 2026-03-24
 
 DOMAIN,www.lilyemby.com
 DOMAIN,tx.lilyemby.com
@@ -7,3 +7,7 @@ DOMAIN,cdn.lilyemby.com
 DOMAIN,aliyun.lilyemby.com
 DOMAIN,free.lilyemby.com
 DOMAIN-SUFFIX,lilyemby.com
+DOMAIN,link00.okemby.org
+DOMAIN,link01.okemby.org
+DOMAIN,emby.bangumi.ca
+DOMAIN,ap-cn01.emby.bangumi.ca

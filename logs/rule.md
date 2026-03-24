@@ -83,3 +83,10 @@
 我现在需要把以下域名或者IP地址放到直连的规则列表里面
 1. 212.60.153.188
 2. 2602:fb54:1801:1b6::/64
+
+我现在需要把以下域名或者IP地址放到emby的规则列表里面
+1. link00.okemby.org
+2. link01.okemby.org
+3. emby.bangumi.ca
+4. ap-cn01.emby.bangumi.ca
+5. ap-cn01.emby.bangumi.ca
