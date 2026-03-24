@@ -90,3 +90,5 @@
 3. emby.bangumi.ca
 4. ap-cn01.emby.bangumi.ca
 5. ap-cn01.emby.bangumi.ca
+6. ap-cn02.emby.bangumi.ca
+
