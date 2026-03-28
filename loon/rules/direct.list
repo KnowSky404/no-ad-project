@@ -1,5 +1,5 @@
 # Personal Direct Rules
-# Date: 2026-03-21
+# Date: 2026-03-28
 
 DOMAIN-SUFFIX,ipa.store
 IP-CIDR,145.79.143.238/24
@@ -37,3 +37,5 @@ IP-CIDR,216.23.85.87/32
 IP-CIDR6,2a13:edc0:24:152::/64
 IP-CIDR,212.60.153.188/32
 IP-CIDR6,2602:fb54:1801:1b6::/64
+IP-CIDR,38.64.57.67/32
+DOMAIN,vmr-us-lax.ziteng.li
