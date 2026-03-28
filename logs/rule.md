@@ -96,3 +96,10 @@
 我现在需要把以下域名或者IP地址放到直连的规则列表里面
 1. 38.64.57.67
 2. vmr-us-lax.ziteng.li
+
+我现在需要把以下域名或者IP地址放到emby的规则列表里面
+1. media.nijigem.by
+2. default.cdn.bgp.yt
+3. cu.cdn.bgp.yt
+4. cm.cdn.bgp.yt
+5. ct.cdn.bgp.yt

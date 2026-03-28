@@ -22,10 +22,6 @@ IP-CIDR,212.60.153.192/32,direct
 IP-CIDR6,2602:fb54:1801:1b8::a/128,direct
 HOST,bfc-de.knowsky404.com,direct
 HOST,bfc-jp.knowsky404.com,direct
-HOST,media.nijigem.by,direct
-HOST,ct.cdn.bgp.yt,direct
-HOST,cm.cdn.bgp.yt,direct
-HOST,cu.cdn.bgp.yt,direct
 IP-CIDR,98.158.29.18/32,direct
 IP-CIDR6,2602:fce1:451:9::/64,direct
 HOST,bfc-lax.knowsky404.com,direct
