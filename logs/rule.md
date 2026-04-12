@@ -103,3 +103,6 @@
 3. cu.cdn.bgp.yt
 4. cm.cdn.bgp.yt
 5. ct.cdn.bgp.yt
+
+我现在需要把以下域名或者IP地址放到emby的规则列表里面
+1. origin.lilyemby.cc

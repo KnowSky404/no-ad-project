@@ -1,5 +1,5 @@
 # Emby Rules for Quantumult X
-# Date: 2026-03-28
+# Date: 2026-04-12
 
 HOST,www.lilyemby.com,direct
 HOST,tx.lilyemby.com,direct
@@ -7,6 +7,7 @@ HOST,cdn.lilyemby.com,direct
 HOST,aliyun.lilyemby.com,direct
 HOST,free.lilyemby.com,direct
 HOST-SUFFIX,lilyemby.com,direct
+HOST,origin.lilyemby.cc,direct
 HOST,link00.okemby.org,direct
 HOST,link01.okemby.org,direct
 HOST,emby.bangumi.ca,direct

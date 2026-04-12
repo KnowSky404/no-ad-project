@@ -1,5 +1,5 @@
 # Emby Rules for Loon
-# Date: 2026-03-28
+# Date: 2026-04-12
 
 DOMAIN,www.lilyemby.com
 DOMAIN,tx.lilyemby.com
@@ -7,6 +7,7 @@ DOMAIN,cdn.lilyemby.com
 DOMAIN,aliyun.lilyemby.com
 DOMAIN,free.lilyemby.com
 DOMAIN-SUFFIX,lilyemby.com
+DOMAIN,origin.lilyemby.cc
 DOMAIN,link00.okemby.org
 DOMAIN,link01.okemby.org
 DOMAIN,emby.bangumi.ca
