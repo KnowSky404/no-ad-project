@@ -106,3 +106,8 @@
 
 我现在需要把以下域名或者IP地址放到emby的规则列表里面
 1. origin.lilyemby.cc
+
+我现在需要把以下域名或者IP地址放到direct的规则列表里面
+1. 130.61.148.167
+2. oc-de-fra.ziteng.li
+3. 2603:c020:8023:da00:0:1bb3:314:c2cb

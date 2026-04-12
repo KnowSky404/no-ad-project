@@ -1,5 +1,5 @@
 # Personal Direct Rules for Shadowrocket
-# Date: 2026-03-28
+# Date: 2026-04-12
 
 DOMAIN-SUFFIX,ipa.store
 IP-CIDR,145.79.143.238/24
@@ -35,3 +35,6 @@ IP-CIDR,212.60.153.188/32
 IP-CIDR6,2602:fb54:1801:1b6::/64
 IP-CIDR,38.64.57.67/32
 DOMAIN,vmr-us-lax.ziteng.li
+IP-CIDR,130.61.148.167/32
+DOMAIN,oc-de-fra.ziteng.li
+IP-CIDR6,2603:c020:8023:da00:0:1bb3:314:c2cb/128
